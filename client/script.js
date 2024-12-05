@@ -79,15 +79,15 @@ function updateUserWeatherDisplay(data) {
 
 function getWeatherImage(condition) {
     const images = {
-        sunny: 'sunny.png',
-        rainy: 'rain_7016161.png',
-        cloudy: 'clouds_1281173.png',
-        thunderstorm: 'thunderstorm_15555420.png',
-        snow: 'snowflake_3725049.png',
-        mist: 'windy_8047082.png',
-        fog: 'smoke_17880428.png',
-        haze: 'cloud_13202313.png',
-        clear: 'cloudy-night_9231607.png',
+        sunny: 'assets/sunny.png',
+        rainy: 'assets/rain_7016161.png',
+        cloudy: 'assets/clouds_1281173.png',
+        thunderstorm: 'assets/thunderstorm_15555420.png',
+        snow: 'assets/snowflake_3725049.png',
+        mist: 'assets/windy_8047082.png',
+        fog: 'assets/smoke_17880428.png',
+        haze: 'assets/cloud_13202313.png',
+        clear: 'assets/cloudy-night_9231607.png',
         // Add more conditions and corresponding image paths
     };
     return images[condition] || 'interface_14067633.png'; // Default image if condition not found
